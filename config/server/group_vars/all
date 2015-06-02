@@ -1,0 +1,39 @@
+---
+# DATABASE
+drupal_mysql_drupal_user: "drupal"
+drupal_mysql_drupal_password: "root"
+drupal_mysql_database: "MY_SITE"
+mysql_root_password: "root"
+
+# DRUPAL
+www_owner: "vagrant"
+www_group: "www-data"
+enable_debug: no
+app_user: "vagrant"
+node_version: "0.12.2"
+nginx_log_dir: "/var/log/nginx"
+
+# ROLE: KRAFTWAGEN
+drupal_path: "/home/{{ www_owner }}/MY_SITE/docroot"
+drupal_project_path: "/home/{{ www_owner }}/MY_SITE/"
+drupal_source: https://github.com/TallerWebSolutions/MY_SITE.git
+drupal_www_owner: "{{ www_owner }}"
+drupal_admin_password: "root"
+drupal_admin_email: admin@localhost.com
+drupal_kw_name: MY_SITE
+drupal_kw_human_name: MY_SITE_HUMAN_NAME
+drupal_kw_skeleton_branch: "panopoly"
+drupal_kw_source: https://github.com/TallerWebSolutions/kraftwagen.git
+drupal_kw_source_branch: taller
+drupal_db:
+  driver: mysql
+  user: "{{ drupal_mysql_drupal_user }}"
+  password: "{{ mysql_root_password }}"
+  database: "{{ drupal_mysql_database }}"
+  host: "localhost"
+  port: ""
+  prefix: ""
+
+# NODEJS
+app_user: "vagrant"
+node_version: "0.12.2"
