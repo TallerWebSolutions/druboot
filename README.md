@@ -47,3 +47,5 @@ cd config/server/providers/dev
 ./provision.sh
 ```
 
+## WIP !!
+Didn't test all the providers yet.
