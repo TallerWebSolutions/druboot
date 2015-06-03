@@ -1,11 +1,11 @@
 [solr]
-MY_SITE_solr ansible_ssh_host=localhost ansible_ssh_port=2223
+***DRUPAL_MACHINE_NAME***_solr ansible_ssh_host=localhost ansible_ssh_port=2223
 
 [database]
-MY_SITE ansible_ssh_host=localhost ansible_ssh_port=2222
+***DRUPAL_MACHINE_NAME*** ansible_ssh_host=localhost ansible_ssh_port=2222
 
 [drupal]
-MY_SITE ansible_ssh_host=localhost ansible_ssh_port=2222
+***DRUPAL_MACHINE_NAME*** ansible_ssh_host=localhost ansible_ssh_port=2222
 
 [docker:children]
 solr

@@ -1,22 +1,22 @@
-cd ~/MY_SITE/build
+cd ~/***DRUPAL_MACHINE_NAME***/build
 drush cc all
 drush updb -y
 drush fra -y
 drush kw-m
-if [ -d "profiles/MY_SITE/themes/taller/assets/sass/" ]; then
-  cd profiles/MY_SITE/themes/taller/assets/sass/
+if [ -d "profiles/***DRUPAL_MACHINE_NAME***/themes/taller/assets/sass/" ]; then
+  cd profiles/***DRUPAL_MACHINE_NAME***/themes/taller/assets/sass/
   bundle install
   bundle exec compass compile
 fi
-cd ~/MY_SITE/build
-if [ -d "profiles/MY_SITE/themes/MY_SITE/assets/sass/" ]; then
-  cd profiles/MY_SITE/themes/MY_SITE/assets/sass/
+cd ~/***DRUPAL_MACHINE_NAME***/build
+if [ -d "profiles/***DRUPAL_MACHINE_NAME***/themes/***DRUPAL_MACHINE_NAME***/assets/sass/" ]; then
+  cd profiles/***DRUPAL_MACHINE_NAME***/themes/***DRUPAL_MACHINE_NAME***/assets/sass/
   bundle install
   bundle exec compass compile
 fi
-cd ~/MY_SITE/build
-if [ -d "profiles/MY_SITE/themes/ember" ]; then
-  cd profiles/MY_SITE/themes/ember
+cd ~/***DRUPAL_MACHINE_NAME***/build
+if [ -d "profiles/***DRUPAL_MACHINE_NAME***/themes/ember" ]; then
+  cd profiles/***DRUPAL_MACHINE_NAME***/themes/ember
   bundle install
   bundle exec compass compile
 fi

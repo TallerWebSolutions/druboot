@@ -2,22 +2,27 @@
 
 ### Search and replace:
 
-#### CHANGE.THIS.IP.ADDR
+```***CHANGE.THIS.IP.ADDR***```
 Change to the remote dev server's remote IP.
 
-#### MY_SITE_HUMAN_NAME
+```***DRUPAL_SITE_NAME***```
+Change to the Drupal site's name.
+For example:
+My fresh new site
+
+```***DRUPAL_HUMAN_NAME***```
 Change the human name of your project, only varchars.
 For example:
 Drupal Project
 Client Name
 Project Name
 
-#### MY_SITE
-Change the name of your project, only [a-z\-\_] chars.
+```***DRUPAL_MACHINE_NAME***```
+Change the name of your project, only [a-z_] chars.
 For example:
-drupal-project
-clients-name
-projects-name
+drupal_project
+clients_name
+projects_name
 
 ### Dependencies:
 - Git.
