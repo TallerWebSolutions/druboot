@@ -22,7 +22,7 @@ drupal_admin_password: "root"
 drupal_admin_email: admin@localhost.com
 drupal_site_name: "***DRUPAL_SITE_NAME***"
 drupal_kw_name: ***DRUPAL_MACHINE_NAME***
-drupal_kw_human_name: "***KW_MACHINE_NAME***"
+drupal_kw_human_name: "***DRUPAL_MACHINE_NAME***"
 drupal_kw_source: https://github.com/TallerWebSolutions/kraftwagen.git
 drupal_kw_source_branch: taller
 drupal_kw_skeleton_source: https://github.com/TallerWebSolutions/kraftwagen-default-skeleton.git
