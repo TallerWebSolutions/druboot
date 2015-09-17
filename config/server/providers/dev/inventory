@@ -1,14 +1,14 @@
 [solr]
-drupal-build ansible_ssh_host=CHANGE.THIS.IP.ADDR ansible_ssh_user=ubuntu
+drupal-build ansible_ssh_host=***CHANGE.THIS.IP.ADDR*** ansible_ssh_user=ubuntu
 
 [database]
-drupal-build ansible_ssh_host=CHANGE.THIS.IP.ADDR ansible_ssh_user=ubuntu
+drupal-build ansible_ssh_host=***CHANGE.THIS.IP.ADDR*** ansible_ssh_user=ubuntu
 
 [drupal]
-drupal-build ansible_ssh_host=CHANGE.THIS.IP.ADDR ansible_ssh_user=ubuntu
+drupal-build ansible_ssh_host=***CHANGE.THIS.IP.ADDR*** ansible_ssh_user=ubuntu
 
 ; [nodejs]
-; drupal-build ansible_ssh_host=CHANGE.THIS.IP.ADDR ansible_ssh_user=ubuntu
+; drupal-build ansible_ssh_host=***CHANGE.THIS.IP.ADDR*** ansible_ssh_user=ubuntu
 
 [dev:children]
 solr
