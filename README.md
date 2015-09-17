@@ -26,7 +26,7 @@ Project Name
 ```
 ***DRUPAL_MACHINE_NAME***
 ```
-Change the name of your project, only [a-z_] chars.
+Change the name of your project, only [a-z-] chars.
 For example:
 drupal_project
 clients_name
