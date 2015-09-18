@@ -25,8 +25,8 @@ drupal_kw_name: ***DRUPAL_MACHINE_NAME***
 drupal_kw_human_name: "***DRUPAL_MACHINE_NAME***"
 drupal_kw_source: https://github.com/TallerWebSolutions/kraftwagen.git
 drupal_kw_source_branch: taller
-drupal_kw_skeleton_source: https://github.com/TallerWebSolutions/kraftwagen-default-skeleton.git
-drupal_kw_skeleton_branch: "panopoly-update-2.21"
+drupal_kw_skeleton_source: ***DRUPAL_KW_SKELETON_SOURCE***
+drupal_kw_skeleton_branch: "***DRUPAL_KW_SKELETON_BRANCH***"
 drupal_db:
   driver: mysql
   user: "{{ drupal_mysql_drupal_user }}"

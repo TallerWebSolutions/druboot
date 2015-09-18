@@ -1,6 +1,6 @@
 # Drupal Boot (druboot)
 
-### Search and replace:
+## Search and replace:
 
 ```
 ***CHANGE.THIS.IP.ADDR***
@@ -36,7 +36,19 @@ For example:
 hyphens or underlines, although they would commonly be accepted for machine
 names.
 
-### Dependencies:
+```
+***DRUPAL_KW_SKELETON_SOURCE***
+```
+Repository that Kraftwagen will use as skeleton for the source structure.
+For example: `git://github.com/kraftwagen/skeleton.git`
+
+```
+***DRUPAL_KW_SKELETON_BRANCH***
+```
+The branch to use from the repository defined above.
+For example: `master`
+
+## Dependencies:
 - Git.
 - Vagrant.
 - VirtualBox || Docker || Remote server.
