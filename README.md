@@ -26,11 +26,15 @@ Project Name
 ```
 ***DRUPAL_MACHINE_NAME***
 ```
-Change the name of your project, only [a-z-] chars.
+Change the name of your project, only [a-z] chars.
 For example:
-drupal_project
-clients_name
-projects_name
+drupalproject
+clientsname
+projectsname
+
+> This machine name is used in multiple situations, some of which do not allow
+hyphens or underlines, although they would commonly be accepted for machine
+names.
 
 ### Dependencies:
 - Git.
