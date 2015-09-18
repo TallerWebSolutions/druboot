@@ -12,25 +12,25 @@ Change to the remote dev server's remote IP.
 ```
 Change to the Drupal site's name.
 For example:
-My fresh new site
+- My fresh new site
 
 ```
 ***DRUPAL_HUMAN_NAME***
 ```
 Change the human name of your project, only varchars.
 For example:
-Drupal Project
-Client Name
-Project Name
+- Drupal Project
+- Client Name
+- Project Name
 
 ```
 ***DRUPAL_MACHINE_NAME***
 ```
 Change the name of your project, only [a-z-] chars.
 For example:
-drupal_project
-clients_name
-projects_name
+- drupal-project
+- clients-name
+- projects-name
 
 ### Dependencies:
 - Git.
